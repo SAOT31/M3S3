@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic DOM Manager</title>
+    <style>
+        body { font-family: sans-serif; padding: 20px; }
+        ul { list-style-type: none; padding: 0; }
+        li { background: #f4f4f4; margin: 5px 0; padding: 10px; display: flex; justify-content: space-between; }
+        button { cursor: pointer; }
+    </style>
+</head>
+<body>
+
+    <h1>Task Manager</h1>
+
+    <input type="text" id="noteInput" placeholder="New note...">
+    <button id="addBtn">Add Note</button>
+
+    <ul id="notesList"></ul>
+
+    <script src="script.js"></script>
+</body>
+</html>
